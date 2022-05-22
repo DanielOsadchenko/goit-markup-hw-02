@@ -24,7 +24,7 @@ body{
     list-style-type: none;
 }
 
-.button {
+.hero-button {
     cursor: pointer;
     font-weight: 700;
     font-size: 16px;
@@ -43,6 +43,7 @@ body{
 }
 
 /* Шапка */
+
 .logo {
     font-weight: 700;
     font-size: 26px;
@@ -81,6 +82,7 @@ body{
 }
 
 /* Преимущества */
+
 .benefits .title {
     font-size: 14px;
     line-height: 1.14;
@@ -96,6 +98,7 @@ body{
 /* Примеры */
 
 /* Команда */
+
 .team {
 font-size: 16px;
 line-height: 1.19
@@ -106,6 +109,7 @@ line-height: 1.19
 }
 
 /* Футер */
+
 .contact {
     font-size: 14px;
     line-height: 1.71;
@@ -120,4 +124,41 @@ line-height: 1.19
 
 .address {
     color: #ffffff;
+}
+
+
+
+
+
+
+/* PORTFOLIO.HTML */
+
+
+
+
+
+
+.filter-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+}
+.filter-button:hover, .filter-button:focus {
+    background-color: var(--accent-color);
+    color: #ffffff;
+}
+
+.example .title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+}
+
+.example .text {
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--main-text-color);
 }
